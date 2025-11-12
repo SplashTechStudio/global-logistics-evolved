@@ -5,6 +5,14 @@ import flightImage from "@/assets/flight-charter.jpg";
 import freightImage from "@/assets/freight-service.jpg";
 import oilngas from "@/assets/oilngas.jpg";
 import minning from "@/assets/minningoperations.jpg";
+import distrubution from "@/assets/distrubution.jpg";
+import buy from "@/assets/buy.jpeg";
+import consult from "@/assets/consult.jpg";
+import danger from "@/assets/danger.jpg";
+import security from "@/assets/security.jpg";
+import carsImg from "@/assets/cars.jpg";
+import carsImg from "@/assets/cars.jpg";
+import carsImg from "@/assets/cars.jpg";
 import carsImg from "@/assets/cars.jpg";
 const services = [
   {
@@ -59,13 +67,13 @@ const services = [
     icon: Shield,
     title: "Security & Risk Management",
     description: "Escort services, facility security, risk assessment, and emergency response for logistics operations.",
-    image: fleetImage,
+    image: security,
   },
   {
     icon: AlertTriangle,
     title: "Dangerous Goods Handling",
     description: "Certified handling and transport of hazardous materials with IMO/IATA compliance and safety documentation.",
-    image: freightImage,
+    image: danger,
   },
   {
     icon: NavigationIcon,
@@ -77,19 +85,19 @@ const services = [
     icon: Briefcase,
     title: "Consultancy & Project Management",
     description: "Expert project management and logistics consultancy services for complex operations.",
-    image: flightImage,
+    image: consult,
   },
   {
     icon: ShoppingCart,
     title: "Procurement & E-commerce",
     description: "Comprehensive procurement solutions and e-commerce logistics support.",
-    image: freightImage,
+    image: buy,
   },
   {
     icon: TrendingUp,
     title: "Haulage & Distribution",
     description: "Long haul and last-mile distribution services with route optimization and fleet management.",
-    image: fleetImage,
+    image: distrubution,
   },
 ];
 
