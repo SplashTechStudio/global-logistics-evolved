@@ -2,12 +2,27 @@ import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { Car, Truck, Plane, Ship, Package, FileText, Route, Globe, Check, Thermometer, Shield, AlertTriangle, Navigation as NavigationIcon, Briefcase, ShoppingCart, TrendingUp, Stethoscope } from "lucide-react";
+import { Car, Truck, Plane, Ship, Package, FileText, Route, Globe, Check, Thermometer, Flame, Shield, AlertTriangle, Navigation as NavigationIcon, Briefcase, ShoppingCart, TrendingUp, Stethoscope } from "lucide-react";
 import fleetImage from "@/assets/fleet-vehicles.jpg";
 import flightImage from "@/assets/flight-charter.jpg";
 import freightImage from "@/assets/freight-service.jpg";
+import oilngas from "@/assets/oilngas.jpg";
 
 const mainServices = [
+  {
+    icon: Flame,
+    title: "Minning Operations, Oil and Gas",
+    tagline: "Minning accross all production levels",
+    description: "Our minning operation are top quality and reduces hazards to the bearest, we can boast of harzad free",
+    image: oilngas,
+    features: [
+      "Minning",
+      "Oil and Gas",
+      "Pipe line and infrastructure",
+      "Consultation"
+    ],
+    gradient: "from-secondary to-logistics-orange"
+  },
   {
     icon: Car,
     title: "Car Rental Services",

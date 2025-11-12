@@ -3,19 +3,20 @@ import { Car, Truck, Plane,Fuel, Flame, Ship, Package, FileText, Thermometer, Sh
 import fleetImage from "@/assets/fleet-vehicles.jpg";
 import flightImage from "@/assets/flight-charter.jpg";
 import freightImage from "@/assets/freight-service.jpg";
-
+import oilngas from "@/assets/oilngas.jpg";
+import minning from "@/assets/minningoperations.jpg";
 const services = [
   {
     icon: Fuel,
     title: "Oil and Gas",
     description: "Supply chain accross oil and gas",
-    image: fleetImage,
+    image: oilngas,
   },
   {
     icon: Flame,
     title: "Minning Operations",
     description: "Minning operations accross crude productions plants",
-    image: fleetImage,
+    image: minning,
   },
   {
     icon: Car,
