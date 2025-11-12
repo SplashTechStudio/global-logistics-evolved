@@ -11,9 +11,9 @@ import consult from "@/assets/consult.jpg";
 import danger from "@/assets/danger.jpg";
 import security from "@/assets/security.jpg";
 import carsImg from "@/assets/cars.jpg";
-import carsImg from "@/assets/cars.jpg";
-import carsImg from "@/assets/cars.jpg";
-import carsImg from "@/assets/cars.jpg";
+import medicals from "@/assets/medicals.webp";
+import cold from "@/assets/cold.webp";
+import last from "@/assets/last.avif";
 const services = [
   {
     icon: Fuel,
@@ -55,13 +55,13 @@ const services = [
     icon: Stethoscope,
     title: "Medical Equipment Services",
     description: "Transportation, installation, training programs, and ongoing maintenance support for medical equipment.",
-    image: freightImage,
+    image: medicals,
   },
   {
     icon: Thermometer,
     title: "Cold Chain Logistics",
     description: "Temperature-controlled logistics for pharmaceuticals, vaccines, and perishables with real-time monitoring.",
-    image: freightImage,
+    image: cold,
   },
   {
     icon: Shield,
@@ -79,7 +79,7 @@ const services = [
     icon: NavigationIcon,
     title: "Last-Mile Delivery",
     description: "Efficient delivery solutions for urban and rural areas with real-time tracking and flexible scheduling.",
-    image: fleetImage,
+    image: last,
   },
   {
     icon: Briefcase,
