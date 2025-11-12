@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { NavLink } from "@/components/NavLink";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
+import logo from "@/assets/logo.png";
 
 const Navigation = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -26,11 +27,17 @@ const Navigation = () => {
           {/* Logo */}
           <NavLink 
             to="/" 
-            className={`text-2xl font-bold transition-colors ${
-              isScrolled ? "text-primary" : "text-white"
-            }`}
+            className="flex items-center"
           >
-            JuanChini
+            <div className={`transition-all duration-300 rounded-full p-2 ${
+              isScrolled ? "bg-logistics-navy" : "bg-transparent"
+            }`}>
+              <img 
+                src={logo} 
+                alt="JuanChini Group Logo" 
+                className="h-12 w-auto"
+              />
+            </div>
           </NavLink>
 
           {/* Desktop Navigation */}

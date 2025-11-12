@@ -1,5 +1,6 @@
 import { Mail, Phone, MapPin } from "lucide-react";
 import { NavLink } from "@/components/NavLink";
+import logo from "@/assets/logo.png";
 
 const Footer = () => {
   return (
@@ -8,7 +9,11 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Company Info */}
           <div className="space-y-4">
-            <h3 className="text-2xl font-bold text-logistics-orange">JuanChini</h3>
+            <img 
+              src={logo} 
+              alt="JuanChini Group Logo" 
+              className="h-16 w-auto"
+            />
             <p className="text-gray-300 text-sm">
               Your trusted partner in transportation and logistics across West Africa.
             </p>
