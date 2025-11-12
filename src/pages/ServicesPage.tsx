@@ -2,7 +2,7 @@ import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { Car, Truck, Plane, Ship, Package, FileText, Route, Globe, Check } from "lucide-react";
+import { Car, Truck, Plane, Ship, Package, FileText, Route, Globe, Check, Thermometer, Shield, AlertTriangle, Navigation as NavigationIcon, Briefcase, ShoppingCart, TrendingUp, Stethoscope } from "lucide-react";
 import fleetImage from "@/assets/fleet-vehicles.jpg";
 import flightImage from "@/assets/flight-charter.jpg";
 import freightImage from "@/assets/freight-service.jpg";
@@ -71,6 +71,14 @@ const mainServices = [
 ];
 
 const additionalServices = [
+  { icon: Stethoscope, title: "Medical Equipment Services", description: "Transportation, installation, training, and maintenance support for medical equipment" },
+  { icon: Thermometer, title: "Cold Chain Logistics", description: "Temperature-controlled logistics for pharmaceuticals, vaccines, and perishables" },
+  { icon: Shield, title: "Security & Risk Management", description: "Escort services, facility security, risk assessment, and emergency response" },
+  { icon: AlertTriangle, title: "Dangerous Goods Handling", description: "Certified handling and transport of hazardous materials with IMO/IATA compliance" },
+  { icon: NavigationIcon, title: "Last-Mile Delivery", description: "Efficient delivery solutions for urban and rural areas with real-time tracking" },
+  { icon: Briefcase, title: "Consultancy & Project Management", description: "Expert project management and logistics consultancy services" },
+  { icon: ShoppingCart, title: "Procurement & E-commerce", description: "Comprehensive procurement solutions and e-commerce logistics support" },
+  { icon: TrendingUp, title: "Haulage & Distribution", description: "Long haul and last-mile distribution with route optimization" },
   { icon: FileText, title: "Customs Clearance", description: "Expert customs clearance services to streamline your operations" },
   { icon: Package, title: "Warehousing & Storage", description: "Secure storage facilities for your goods and equipment" },
   { icon: Route, title: "Route Optimization", description: "Strategic route planning for maximum efficiency" },
@@ -186,7 +194,7 @@ const ServicesPage = () => {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 max-w-7xl mx-auto">
             {additionalServices.map((service, index) => {
               const Icon = service.icon;
               return (

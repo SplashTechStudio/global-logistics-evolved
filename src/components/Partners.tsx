@@ -1,11 +1,4 @@
-const partners = [
-  "AfricaCDC",
-  "ECOWAS Commission",
-  "United Nations",
-  "Bayougar",
-  "WARC",
-  "Falclin Investment",
-];
+import partnerLogos from "@/assets/partner-logos.jpg";
 
 const Partners = () => {
   return (
@@ -20,18 +13,14 @@ const Partners = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8 items-center">
-          {partners.map((partner, index) => (
-            <div
-              key={partner}
-              className="bg-background rounded-lg p-6 flex items-center justify-center h-24 hover:shadow-lg transition-shadow duration-300 animate-fade-up"
-              style={{ animationDelay: `${index * 100}ms` }}
-            >
-              <p className="text-center font-semibold text-foreground text-sm">
-                {partner}
-              </p>
-            </div>
-          ))}
+        <div className="max-w-5xl mx-auto animate-fade-up">
+          <div className="bg-background rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow duration-300">
+            <img
+              src={partnerLogos}
+              alt="JuanChini Partners - AfricaCDC, ECOWAS Commission, United Nations, Bayougar, WARC, Falclin Investment"
+              className="w-full h-auto"
+            />
+          </div>
         </div>
       </div>
     </section>

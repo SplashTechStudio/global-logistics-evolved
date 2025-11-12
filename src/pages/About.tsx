@@ -52,21 +52,24 @@ const About = () => {
               </div>
               <div className="space-y-6 animate-slide-in-right">
                 <div className="inline-block px-4 py-2 bg-secondary/10 text-secondary rounded-full text-sm font-semibold mb-4">
-                  Who We Are
+                  About JuaChini
                 </div>
                 <h2 className="text-5xl font-bold text-primary leading-tight">
-                  Trusted By Leaders, 
-                  <span className="text-secondary block mt-2">Built For Excellence</span>
+                  Premier Logistics & 
+                  <span className="text-secondary block mt-2">Project Support Provider</span>
                 </h2>
                 <p className="text-lg text-muted-foreground leading-relaxed">
-                  JuanChini is a reliable transportation and logistics company offering car rental services, 
-                  truck hires, and flight charters across Liberia and beyond. We provide seamless, safe, 
-                  and efficient mobility solutions for individuals, businesses, and organizations.
+                  JuaChini is a premier logistics and project support provider in Liberia and a key player 
+                  in West African logistics infrastructure development. Founded by John Bayougar Clinton and Team, 
+                  our company delivers comprehensive logistics solutions across multiple sectors, including medical 
+                  equipment, freight forwarding, supply chain management, and more.
                 </p>
-                <p className="text-lg text-muted-foreground leading-relaxed">
-                  Our commitment to excellence has made us the trusted partner for AfricaCDC, ECOWAS Commission, 
-                  United Nations, and countless businesses across West Africa.
-                </p>
+                <div className="bg-secondary/5 border-l-4 border-secondary p-6 rounded-r-lg">
+                  <p className="text-lg text-primary font-semibold italic">
+                    "To provide swift, secure, and seamless logistics solutions that connect West Africa to the global market."
+                  </p>
+                  <p className="text-sm text-muted-foreground mt-2">— Our Mission</p>
+                </div>
                 <div className="flex gap-4 pt-4">
                   <div className="text-center">
                     <div className="text-4xl font-bold text-secondary">15+</div>
@@ -99,14 +102,12 @@ const About = () => {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto">
             {[
-              { icon: Globe, title: "Regional Expertise", desc: "Deep understanding of West African markets and logistics infrastructure", color: "from-blue-500 to-primary" },
-              { icon: Award, title: "Proven Reliability", desc: "Years of experience delivering secure logistics solutions and dependable service", color: "from-secondary to-logistics-orange" },
-              { icon: TrendingUp, title: "Comprehensive Solutions", desc: "From car rentals to flight charters, we cover all your transportation needs", color: "from-accent to-logistics-teal" },
-              { icon: Users, title: "Expert Team", desc: "Skilled professionals dedicated to providing exceptional service", color: "from-logistics-teal to-accent" },
-              { icon: Target, title: "Customer Focus", desc: "Your needs drive our innovation and service excellence", color: "from-logistics-orange to-secondary" },
-              { icon: Zap, title: "Swift Response", desc: "24/7 availability for urgent logistics and transportation needs", color: "from-primary to-blue-500" },
+              { icon: Award, title: "Proven Reliability", desc: "Years of experience delivering secure logistics solutions and dependable services", color: "from-secondary to-logistics-orange" },
+              { icon: Zap, title: "Swift Delivery", desc: "Fast and efficient services to meet your urgent logistics needs", color: "from-logistics-orange to-secondary" },
+              { icon: Globe, title: "Regional Expertise", desc: "Deep understanding of West African markets and logistics infrastructure", color: "from-accent to-logistics-teal" },
+              { icon: Users, title: "Expert Team", desc: "Skilled professionals dedicated to providing exceptional service", color: "from-logistics-teal to-primary" },
             ].map((value, index) => {
               const Icon = value.icon;
               return (
