@@ -5,6 +5,7 @@ import flightImage from "@/assets/flight-charter.jpg";
 import freightImage from "@/assets/freight-service.jpg";
 import oilngas from "@/assets/oilngas.jpg";
 import minning from "@/assets/minningoperations.jpg";
+import carsImg from "@/assets/cars.jpg";
 const services = [
   {
     icon: Fuel,
@@ -22,7 +23,7 @@ const services = [
     icon: Car,
     title: "Car Rental Services",
     description: "Economy to luxury vehicles for daily, long-term, or corporate hire with professional drivers.",
-    image: fleetImage,
+    image: carsImg,
   },
   {
     icon: Truck,
