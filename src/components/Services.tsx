@@ -1,10 +1,22 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { Car, Truck, Plane, Ship, Package, FileText, Thermometer, Shield, AlertTriangle, Navigation as NavigationIcon, Briefcase, ShoppingCart, TrendingUp, Stethoscope } from "lucide-react";
+import { Car, Truck, Plane,Fuel, Flame, Ship, Package, FileText, Thermometer, Shield, AlertTriangle, Navigation as NavigationIcon, Briefcase, ShoppingCart, TrendingUp, Stethoscope } from "lucide-react";
 import fleetImage from "@/assets/fleet-vehicles.jpg";
 import flightImage from "@/assets/flight-charter.jpg";
 import freightImage from "@/assets/freight-service.jpg";
 
 const services = [
+  {
+    icon: Fuel,
+    title: "Oil and Gas",
+    description: "Supply chain accross oil and gas",
+    image: fleetImage,
+  },
+  {
+    icon: Flame,
+    title: "Minning Operations",
+    description: "Minning operations accross crude productions plants",
+    image: fleetImage,
+  },
   {
     icon: Car,
     title: "Car Rental Services",

@@ -24,7 +24,7 @@ const Hero = () => {
             <span className="text-logistics-orange block mt-2">Logistics</span>
           </h1>
           <p className="text-xl md:text-2xl text-gray-200 mb-8 max-w-2xl">
-            Your trusted partner for transportation and logistics solutions across West Africa and beyond.
+            Your trusted partner for Integrated Technical, Logistics, and Support Services across West Africa and beyond.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Button size="lg" variant="default" className="text-lg px-8" asChild>
